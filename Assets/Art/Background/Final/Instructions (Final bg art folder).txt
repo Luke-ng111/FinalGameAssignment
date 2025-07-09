@@ -1,0 +1,1 @@
+This folder is intended for art assets who have had their backgrounds successfully removed, for usage in the final, non-test gameplay
