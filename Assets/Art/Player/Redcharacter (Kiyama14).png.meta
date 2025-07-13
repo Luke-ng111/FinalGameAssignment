@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 608cb6b13a1593042bc0c96f5f4a7f98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8968375271161105867
+    second: Redcharacter (Kiyama14)_0
+  - first:
+      213: 4360996363016159142
+    second: Redcharacter (Kiyama14)_1
+  - first:
+      213: 8306787438215829365
+    second: Redcharacter (Kiyama14)_2
+  - first:
+      213: -580334900860886788
+    second: Redcharacter (Kiyama14)_3
+  - first:
+      213: -3416040827555119819
+    second: Redcharacter (Kiyama14)_4
+  - first:
+      213: 776689520981496895
+    second: Redcharacter (Kiyama14)_5
+  - first:
+      213: 2147765726086695203
+    second: Redcharacter (Kiyama14)_6
+  - first:
+      213: 8505339603537965123
+    second: Redcharacter (Kiyama14)_7
+  - first:
+      213: -5619548758574581534
+    second: Redcharacter (Kiyama14)_8
+  - first:
+      213: -4908530231912413561
+    second: Redcharacter (Kiyama14)_9
+  - first:
+      213: -2515697257848868557
+    second: Redcharacter (Kiyama14)_10
+  - first:
+      213: -7930870280039116394
+    second: Redcharacter (Kiyama14)_11
+  - first:
+      213: -547830316160084258
+    second: Redcharacter (Kiyama14)_12
+  - first:
+      213: 2511528263609556135
+    second: Redcharacter (Kiyama14)_13
+  - first:
+      213: -5454844423871960401
+    second: Redcharacter (Kiyama14)_14
+  - first:
+      213: 6617592291315558580
+    second: Redcharacter (Kiyama14)_15
+  - first:
+      213: -4606251930073151527
+    second: Redcharacter (Kiyama14)_16
+  - first:
+      213: -477305335968487698
+    second: Redcharacter (Kiyama14)_17
+  - first:
+      213: 7501630841517262555
+    second: Redcharacter (Kiyama14)_18
+  - first:
+      213: 4476801769103761289
+    second: Redcharacter (Kiyama14)_19
+  - first:
+      213: 720179662565527708
+    second: Redcharacter (Kiyama14)_20
+  - first:
+      213: -9103770023071430079
+    second: Redcharacter (Kiyama14)_21
+  - first:
+      213: -6025199980065518440
+    second: Redcharacter (Kiyama14)_22
+  - first:
+      213: -5444869571440979996
+    second: Redcharacter (Kiyama14)_23
+  - first:
+      213: -3075901715554054996
+    second: Redcharacter (Kiyama14)_24
+  - first:
+      213: 3606277556079564908
+    second: Redcharacter (Kiyama14)_25
+  - first:
+      213: 8899701144867580719
+    second: Redcharacter (Kiyama14)_26
+  - first:
+      213: 6597579437675085604
+    second: Redcharacter (Kiyama14)_27
+  - first:
+      213: 6139595061918552255
+    second: Redcharacter (Kiyama14)_28
+  - first:
+      213: 3085430183258790433
+    second: Redcharacter (Kiyama14)_29
+  - first:
+      213: -347510086238131883
+    second: Redcharacter (Kiyama14)_30
+  - first:
+      213: 4148085337071506833
+    second: Redcharacter (Kiyama14)_31
+  - first:
+      213: 7788531516588684931
+    second: Redcharacter (Kiyama14)_32
+  - first:
+      213: 3009815000285172597
+    second: Redcharacter (Kiyama14)_33
+  - first:
+      213: 4296243297590988284
+    second: Redcharacter (Kiyama14)_34
+  - first:
+      213: 6566966417353714222
+    second: Redcharacter (Kiyama14)_35
+  - first:
+      213: 4774932920751795128
+    second: Redcharacter (Kiyama14)_36
+  - first:
+      213: -5803774437590388392
+    second: Redcharacter (Kiyama14)_37
+  - first:
+      213: -3113274313006247211
+    second: Redcharacter (Kiyama14)_38
+  - first:
+      213: 3476714289214454848
+    second: Redcharacter (Kiyama14)_39
+  - first:
+      213: 4102390757211402903
+    second: Redcharacter (Kiyama14)_40
+  - first:
+      213: 6703261820030807000
+    second: Redcharacter (Kiyama14)_41
+  - first:
+      213: 8507174556787678584
+    second: Redcharacter (Kiyama14)_42
+  - first:
+      213: -4642394868459674907
+    second: Redcharacter (Kiyama14)_43
+  - first:
+      213: 586733222475595458
+    second: Redcharacter (Kiyama14)_44
+  - first:
+      213: -2831081150308652169
+    second: Redcharacter (Kiyama14)_45
+  - first:
+      213: 7125653137269150549
+    second: Redcharacter (Kiyama14)_46
+  - first:
+      213: -3339453840872146713
+    second: Redcharacter (Kiyama14)_47
+  - first:
+      213: -6571596568067676137
+    second: Redcharacter (Kiyama14)_48
+  - first:
+      213: -2498135867451275448
+    second: Redcharacter (Kiyama14)_49
+  - first:
+      213: 8186168563442448015
+    second: Redcharacter (Kiyama14)_50
+  - first:
+      213: -2897849936391469522
+    second: Redcharacter (Kiyama14)_51
+  - first:
+      213: -7690955933850645063
+    second: Redcharacter (Kiyama14)_52
+  - first:
+      213: 5525840188167604323
+    second: Redcharacter (Kiyama14)_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5327b06153ee98380800000000000000
+      internalID: -8968375271161105867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 227
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af395c261f558c30800000000000000
+      internalID: 4360996363016159142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 227
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577188fe923a74370800000000000000
+      internalID: 8306787438215829365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 227
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ec6f7b7c32f7f0800000000000000
+      internalID: -580334900860886788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 227
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d785f57f8c790d0800000000000000
+      internalID: -3416040827555119819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 227
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34ded6110b57ca00800000000000000
+      internalID: 776689520981496895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 227
+        width: 66
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329082c6c856ecd10800000000000000
+      internalID: 2147765726086695203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 227
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34031f26e49090670800000000000000
+      internalID: 8505339603537965123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 195
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8bc2f7d2a5302b0800000000000000
+      internalID: -5619548758574581534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 195
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7864895b2c561ebb0800000000000000
+      internalID: -4908530231912413561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 195
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3317e773ca2761dd0800000000000000
+      internalID: -2515697257848868557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 195
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691d096ff73efe190800000000000000
+      internalID: -7930870280039116394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 195
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed69610ea37b568f0800000000000000
+      internalID: -547830316160084258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 195
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac1dcb26adbad220800000000000000
+      internalID: 2511528263609556135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 195
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa6712c5ef7c44b0800000000000000
+      internalID: -5454844423871960401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 195
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b82a30a02966db50800000000000000
+      internalID: 6617592291315558580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 195
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7480a464e4310c0800000000000000
+      internalID: -4606251930073151527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 195
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6233863554069f0800000000000000
+      internalID: -477305335968487698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 195
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd640c841852b1860800000000000000
+      internalID: 7501630841517262555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f15496d7bc02e30800000000000000
+      internalID: 4476801769103761289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 163
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90dda166979ef900800000000000000
+      internalID: 720179662565527708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 163
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a4af9d569e8a180800000000000000
+      internalID: -9103770023071430079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 163
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c018f7a80326ca0800000000000000
+      internalID: -6025199980065518440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 163
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef4de119ffef64b0800000000000000
+      internalID: -5444869571440979996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 163
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacc260cfa33055d0800000000000000
+      internalID: -3075901715554054996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 163
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68169394521c0230800000000000000
+      internalID: 3606277556079564908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 163
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b28f2e907128b70800000000000000
+      internalID: 8899701144867580719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f7b080b8f4f8b50800000000000000
+      internalID: 6597579437675085604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 131
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0d56a0e29343550800000000000000
+      internalID: 6139595061918552255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a98648766a1da20800000000000000
+      internalID: 3085430183258790433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 131
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55929e1fa656d2bf0800000000000000
+      internalID: -347510086238131883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 131
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1955726f2a5f09930800000000000000
+      internalID: 4148085337071506833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386f330262c661c60800000000000000
+      internalID: 7788531516588684931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573d3abcbc205c920800000000000000
+      internalID: 3009815000285172597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd409544825f9b30800000000000000
+      internalID: 4296243297590988284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 131
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aa94ec92d822b50800000000000000
+      internalID: 6566966417353714222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbaab75138f34240800000000000000
+      internalID: 4774932920751795128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 131
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851bee216e9d47fa0800000000000000
+      internalID: -5803774437590388392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 100
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d21ae4d18d6bc4d0800000000000000
+      internalID: -3113274313006247211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_39
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 98
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cf622c935cf3030800000000000000
+      internalID: 3476714289214454848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 96
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7927e6588ae9ee830800000000000000
+      internalID: 4102390757211402903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbef532c15c60d50800000000000000
+      internalID: 6703261820030807000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d129bbf2e8f0670800000000000000
+      internalID: 8507174556787678584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 68
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e26d5ea676e29fb0800000000000000
+      internalID: -4642394868459674907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_44
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cef397d1ce742800800000000000000
+      internalID: 586733222475595458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_45
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 67
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b6c8981baf5b8d0800000000000000
+      internalID: -2831081150308652169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 35
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553539766c763e260800000000000000
+      internalID: 7125653137269150549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 35
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e87007cc60e7a1d0800000000000000
+      internalID: -3339453840872146713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 35
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71866293dbffcc4a0800000000000000
+      internalID: -6571596568067676137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_49
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 35
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84787eb0aa6d45dd0800000000000000
+      internalID: -2498135867451275448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86f47fafec1b9170800000000000000
+      internalID: 8186168563442448015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e268ff816d4c8c7d0800000000000000
+      internalID: -2897849936391469522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd46ab935c344590800000000000000
+      internalID: -7690955933850645063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redcharacter (Kiyama14)_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368ce4dbf5abfac40800000000000000
+      internalID: 5525840188167604323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d6be2e7d0aaa34a458d9a4df7a93becc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Redcharacter (Kiyama14)_0: -8968375271161105867
+      Redcharacter (Kiyama14)_1: 4360996363016159142
+      Redcharacter (Kiyama14)_10: -2515697257848868557
+      Redcharacter (Kiyama14)_11: -7930870280039116394
+      Redcharacter (Kiyama14)_12: -547830316160084258
+      Redcharacter (Kiyama14)_13: 2511528263609556135
+      Redcharacter (Kiyama14)_14: -5454844423871960401
+      Redcharacter (Kiyama14)_15: 6617592291315558580
+      Redcharacter (Kiyama14)_16: -4606251930073151527
+      Redcharacter (Kiyama14)_17: -477305335968487698
+      Redcharacter (Kiyama14)_18: 7501630841517262555
+      Redcharacter (Kiyama14)_19: 4476801769103761289
+      Redcharacter (Kiyama14)_2: 8306787438215829365
+      Redcharacter (Kiyama14)_20: 720179662565527708
+      Redcharacter (Kiyama14)_21: -9103770023071430079
+      Redcharacter (Kiyama14)_22: -6025199980065518440
+      Redcharacter (Kiyama14)_23: -5444869571440979996
+      Redcharacter (Kiyama14)_24: -3075901715554054996
+      Redcharacter (Kiyama14)_25: 3606277556079564908
+      Redcharacter (Kiyama14)_26: 8899701144867580719
+      Redcharacter (Kiyama14)_27: 6597579437675085604
+      Redcharacter (Kiyama14)_28: 6139595061918552255
+      Redcharacter (Kiyama14)_29: 3085430183258790433
+      Redcharacter (Kiyama14)_3: -580334900860886788
+      Redcharacter (Kiyama14)_30: -347510086238131883
+      Redcharacter (Kiyama14)_31: 4148085337071506833
+      Redcharacter (Kiyama14)_32: 7788531516588684931
+      Redcharacter (Kiyama14)_33: 3009815000285172597
+      Redcharacter (Kiyama14)_34: 4296243297590988284
+      Redcharacter (Kiyama14)_35: 6566966417353714222
+      Redcharacter (Kiyama14)_36: 4774932920751795128
+      Redcharacter (Kiyama14)_37: -5803774437590388392
+      Redcharacter (Kiyama14)_38: -3113274313006247211
+      Redcharacter (Kiyama14)_39: 3476714289214454848
+      Redcharacter (Kiyama14)_4: -3416040827555119819
+      Redcharacter (Kiyama14)_40: 4102390757211402903
+      Redcharacter (Kiyama14)_41: 6703261820030807000
+      Redcharacter (Kiyama14)_42: 8507174556787678584
+      Redcharacter (Kiyama14)_43: -4642394868459674907
+      Redcharacter (Kiyama14)_44: 586733222475595458
+      Redcharacter (Kiyama14)_45: -2831081150308652169
+      Redcharacter (Kiyama14)_46: 7125653137269150549
+      Redcharacter (Kiyama14)_47: -3339453840872146713
+      Redcharacter (Kiyama14)_48: -6571596568067676137
+      Redcharacter (Kiyama14)_49: -2498135867451275448
+      Redcharacter (Kiyama14)_5: 776689520981496895
+      Redcharacter (Kiyama14)_50: 8186168563442448015
+      Redcharacter (Kiyama14)_51: -2897849936391469522
+      Redcharacter (Kiyama14)_52: -7690955933850645063
+      Redcharacter (Kiyama14)_53: 5525840188167604323
+      Redcharacter (Kiyama14)_6: 2147765726086695203
+      Redcharacter (Kiyama14)_7: 8505339603537965123
+      Redcharacter (Kiyama14)_8: -5619548758574581534
+      Redcharacter (Kiyama14)_9: -4908530231912413561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
