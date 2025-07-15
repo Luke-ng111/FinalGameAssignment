@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour
     private bool isMoving; //checks for player movement
     private Vector2 input; //checks input
 
-    public LayerMask solidObjectsLayer; //checks layers
+    //checks layers
+    public LayerMask solidObjectsLayer;
+    public LayerMask interactables;
 
     private void Update()
     {
@@ -22,21 +24,30 @@ public class PlayerController : MonoBehaviour
             //if statement below disallows diagonal movement; may change this later
             if (input.x != 0) input.y = 0;
 
-            if (input != Vector2.zero) //if user inputs something that changes input value
+            if (input != Vector2.zero)
             {
-                var targetPos = transform.position;
-                targetPos.x += input.x;
-                targetPos.y += input.y;
+                Vector3 targetPos = transform.position + new Vector3(input.x, input.y, 0f);
 
-                //checks if layer has collision
+                // Optional: round to grid
+                targetPos = new Vector3(Mathf.Round(targetPos.x), Mathf.Round(targetPos.y), 0f);
+
                 if (isWalkable(targetPos))
                 {
                     StartCoroutine(Move(targetPos));
                 }
-
             }
 
         }
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            Interact();
+        }
+
+    }
+
+    void Interact()
+    {
+        Debug.Log("interaction logged!");
     }
 
     IEnumerator Move(Vector3 targetPos)
@@ -52,14 +63,16 @@ public class PlayerController : MonoBehaviour
         isMoving = false;
     }
 
-    private bool isWalkable(Vector3 targetPos) //boolean to see if area is above or below
+    private bool isWalkable(Vector3 targetPos)
     {
-        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null) //if layer is on top, ensure no walking
-        {
-            return false;
-        }
+        Vector2 direction = (targetPos - transform.position).normalized;
+        float distance = Vector2.Distance(transform.position, targetPos);
 
-        return true;
+        Vector2 boxSize = new Vector2(0.8f, 0.8f); // Adjust to your player's size
+
+        RaycastHit2D hit = Physics2D.BoxCast(transform.position, boxSize, 0f, direction, distance, solidObjectsLayer);
+
+        return hit.collider == null;
     }
 
 }

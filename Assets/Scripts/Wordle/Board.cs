@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Board : MonoBehaviour
@@ -36,6 +37,7 @@ public class Board : MonoBehaviour
     public Tile.State incorrectState;
     [Header("UI")]
     public Button tryAgainButton;
+    public Button exitButton;
 
     private void Awake()
     {
@@ -69,6 +71,11 @@ public class Board : MonoBehaviour
         ClearBoard();
         enabled = true;
     
+    }
+    public void returnToScene()
+    {
+        ClearBoard();
+        SceneManager.LoadScene("RPG Test");
     }
 
     private void setWord()
@@ -160,11 +167,13 @@ public class Board : MonoBehaviour
 
         if (HasWon(row))
         {
+            winButton();
             enabled = false;
         }
 
         if (rowIndex >= rows.Length)
         {
+            loseButton();
             enabled = false; //disables the script, will allow you to try again
         }
 
@@ -186,10 +195,22 @@ public class Board : MonoBehaviour
     private void OnEnable()
     {
         tryAgainButton.gameObject.SetActive(false);
+        exitButton.gameObject.SetActive(false);
     }
-    private void OnDisable()
+
+    private void winButton()
+    {
+        exitButton.gameObject.SetActive(true);
+    }
+
+    private void loseButton()
     {
         tryAgainButton.gameObject.SetActive(true);
+    }
+
+    private void OnDisable()
+    {
+        
     }
 
 }
