@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Board : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class Board : MonoBehaviour
     private int columnIndex;
     //first column first row is 0,0, think of it like a graph or Matrix\
 
+    //gets the audio to play
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     //assign states
     [Header("States")] //allows title header to be shown in Unity Editor
     public Tile.State emptyState;
@@ -39,10 +44,14 @@ public class Board : MonoBehaviour
     public Button tryAgainButton;
     public Button exitButton;
 
+
+
     private void Awake()
     {
         // assigns the in-game rows to the rows array
         rows = GetComponentsInChildren<Row>();
+        audioClip = GetComponent<AudioClip>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()

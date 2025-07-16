@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
                 {
                     StartCoroutine(Move(targetPos));
                 }
+
             }
 
         }
@@ -68,11 +69,16 @@ public class PlayerController : MonoBehaviour
         Vector2 direction = (targetPos - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, targetPos);
 
-        Vector2 boxSize = new Vector2(0.8f, 0.8f); // Adjust to your player's size
 
+        Vector2 boxSize = new Vector2(0.8f, 0.8f); // Adjust to your player's size
         RaycastHit2D hit = Physics2D.BoxCast(transform.position, boxSize, 0f, direction, distance, solidObjectsLayer);
 
         return hit.collider == null;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(transform.position, transform.forward);
     }
 
 }
