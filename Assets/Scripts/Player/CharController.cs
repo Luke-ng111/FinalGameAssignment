@@ -9,6 +9,14 @@ public class CharController : MonoBehaviour
 
     private Vector2 movement;
 
+    private void Start()
+    {
+        if (PlayerPosition.playerPosition != Vector3.zero)
+        {
+            transform.position = PlayerPosition.playerPosition;
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
