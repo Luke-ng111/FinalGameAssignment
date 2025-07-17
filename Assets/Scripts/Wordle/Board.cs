@@ -1,8 +1,6 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.Audio;
 
 public class Board : MonoBehaviour
 {
@@ -57,7 +55,7 @@ public class Board : MonoBehaviour
     private void Start()
     {
         LoadData();
-        setWord();
+        SetData();
     }
 
     private void ClearBoard() // this resets the board
@@ -75,11 +73,11 @@ public class Board : MonoBehaviour
         columnIndex = 0;
     }
 
-    public void TryAgain() 
+    public void TryAgain()
     {
         ClearBoard();
         enabled = true;
-    
+
     }
     public void returnToScene()
     {
@@ -87,9 +85,11 @@ public class Board : MonoBehaviour
         SceneManager.LoadScene("RPG Test");
     }
 
-    private void setWord()
+    private void SetData()
     {
-        word = "horse";
+        word = DataContainer.Word;  // "horse";
+        audioSource.clip = DataContainer.AudioClip;
+        Debug.Log(word);
         word = word.ToLower().Trim();
     }
 
@@ -111,12 +111,12 @@ public class Board : MonoBehaviour
             //'\0' is a null value and counts as a single character, apparently
             currentRow.tiles[columnIndex].SetLetter('\0');
             currentRow.tiles[columnIndex].SetState(emptyState);
-        } 
+        }
 
         else if (columnIndex >= currentRow.tiles.Length)
         {
             //submits a row
-            if(Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Return))
             {
                 SubmitRow(currentRow);
             }
@@ -219,7 +219,7 @@ public class Board : MonoBehaviour
 
     private void OnDisable()
     {
-        
+
     }
 
 }
