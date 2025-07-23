@@ -82,7 +82,8 @@ public class Board : MonoBehaviour
     public void returnToScene()
     {
         ClearBoard();
-        SceneManager.LoadScene("RPG Test");
+        ScoreManager.AddPoints(1000);
+        SceneManager.LoadScene("RPG-grassland");
     }
 
     private void SetData()
