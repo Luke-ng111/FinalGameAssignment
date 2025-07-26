@@ -1,41 +1,40 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GridManager : MonoBehaviour
 {
-    private int rows = 5;
-    private int cols = 8;
-    private float tileSize = 1.0f;
-    public GameObject tilePrefab;
+    [Header("Grid setup")]
+    [SerializeField] private GridLayoutGroup grid;     // Put this on the same object (or drag it in)
+    [SerializeField] private GameObject tilePrefab;    // UI prefab (must have a RectTransform)
+
+    [Header("Test values")]
+    [SerializeField] private int rows = 2;
+    [SerializeField] private int cols = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Reset()
     {
-        generateGrid();
+        grid = GetComponent<GridLayoutGroup>();
     }
 
-    private void generateGrid()
+    private void Start()
     {
-        GameObject referenceTile = GameObject.Instantiate(tilePrefab);
-        for (int row = 0; row < rows; row++)
+        SetupGrid(cols);                
+        GenerateGrid(rows * cols);      
+    }
+
+    private void SetupGrid(int columns)
+    {
+        grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        grid.constraintCount = columns;
+    }
+
+    private void GenerateGrid(int count)
+    {
+        for (int i = 0; i < count; i++)
         {
-            for (int col = 0; col < cols; col++)
-            {
-                GameObject tile = (GameObject) Instantiate(referenceTile, transform);
-
-                float posX = col * tileSize;
-                float posY = row * -tileSize;
-
-                tile.transform.position = new Vector2 (posX, posY);
-            }
+            Instantiate(tilePrefab, grid.transform, false);
         }
-
-        Destroy(referenceTile );
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
