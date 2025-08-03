@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Board : MonoBehaviour
+public class DynamicBoard : MonoBehaviour
 {
     //this code provides an array to run through all the keys being used in this particular scene, so as to 
     private static readonly KeyCode[] SUPPORTED_KEYS = new KeyCode[]
@@ -38,28 +38,31 @@ public class Board : MonoBehaviour
     public Tile.State correctState;
     public Tile.State wrongSpotState;
     public Tile.State incorrectState;
-    [Header("UI")]
-    public Button tryAgainButton;
-    public Button exitButton;
+
+    private BoardGenerator boardGenerator; //variable for the boardGenerator script
 
 
 
     private void Awake()
     {
-        // assigns the in-game rows to the rows array
-        rows = GetComponentsInChildren<Row>();
         audioClip = GetComponent<AudioClip>();
         audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
     {
+        //gets the BoardGenerator.cs script
+        boardGenerator = FindFirstObjectByType<BoardGenerator>();
+        // assigns the in-game rows to the rows array
+        rows = GetComponentsInChildren<Row>();
         LoadData();
         SetData();
     }
 
     private void ClearBoard() // this resets the board
     {
+        rows = GetComponentsInChildren<Row>(); // Refresh in case it's null
+
         for (int row = 0; row < rows.Length; row++)
         {
             for (int col = 0; col < rows[row].tiles.Length; col++)
@@ -177,13 +180,13 @@ public class Board : MonoBehaviour
 
         if (HasWon(row))
         {
-            winButton();
+            boardGenerator.winButton();
             enabled = false;
         }
 
         if (rowIndex >= rows.Length)
         {
-            loseButton();
+            boardGenerator.loseButton();
             enabled = false; //disables the script, will allow you to try again
         }
 
@@ -204,11 +207,11 @@ public class Board : MonoBehaviour
 
     private void OnEnable()
     {
-        tryAgainButton.gameObject.SetActive(false);
-        exitButton.gameObject.SetActive(false);
+        //tryAgainButton.gameObject.SetActive(false);
+        //exitButton.gameObject.SetActive(false);
     }
 
-    private void winButton()
+    /*private void winButton()
     {
         exitButton.gameObject.SetActive(true);
     }
@@ -216,7 +219,7 @@ public class Board : MonoBehaviour
     private void loseButton()
     {
         tryAgainButton.gameObject.SetActive(true);
-    } 
+    } */
 
     private void OnDisable()
     {
