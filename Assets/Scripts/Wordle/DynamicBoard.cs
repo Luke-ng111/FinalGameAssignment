@@ -39,6 +39,12 @@ public class DynamicBoard : MonoBehaviour
     public Tile.State wrongSpotState;
     public Tile.State incorrectState;
 
+    //this adds and links the buttons
+    public Button tryAgainButton;
+    public Button exitButton;
+
+    private bool isInitialized = false; //keeps track of if the script is started or not; for debugging purposes
+
     private BoardGenerator boardGenerator; //variable for the boardGenerator script
 
 
@@ -49,6 +55,12 @@ public class DynamicBoard : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    public void Initialize(Button tryAgain, Button exit)
+    {
+        tryAgainButton = tryAgain;
+        exitButton = exit;
+    }
+
     private void Start()
     {
         //gets the BoardGenerator.cs script
@@ -57,16 +69,44 @@ public class DynamicBoard : MonoBehaviour
         rows = GetComponentsInChildren<Row>();
         LoadData();
         SetData();
+
+        //this wires the buttons
+        if (tryAgainButton != null)
+            tryAgainButton.onClick.AddListener(TryAgain);
+
+        if (exitButton != null)
+            exitButton.onClick.AddListener(returnToScene);
+
+        isInitialized = true;
     }
 
     private void ClearBoard() // this resets the board
     {
-        rows = GetComponentsInChildren<Row>(); // Refresh in case it's null
+
+        rows = GetComponentsInChildren<Row>();
+
+        if (rows == null || rows.Length == 0)
+        {
+            Debug.LogWarning("ClearBoard: No rows found!");
+            return;
+        }
 
         for (int row = 0; row < rows.Length; row++)
         {
+            if (rows[row] == null)
+            {
+                Debug.LogWarning($"ClearBoard: Row {row} is null");
+                continue;
+            }
+
             for (int col = 0; col < rows[row].tiles.Length; col++)
             {
+                if (rows[row].tiles[col] == null)
+                {
+                    Debug.LogWarning($"ClearBoard: Tile at row {row}, col {col} is null");
+                    continue;
+                }
+
                 rows[row].tiles[col].SetLetter('\0');
                 rows[row].tiles[col].SetState(emptyState);
             }
@@ -78,6 +118,12 @@ public class DynamicBoard : MonoBehaviour
 
     public void TryAgain()
     {
+        if (!isInitialized)
+        {
+            Debug.LogWarning("TryAgain called before board initialized!");
+            return;
+        }
+
         ClearBoard();
         enabled = true;
 

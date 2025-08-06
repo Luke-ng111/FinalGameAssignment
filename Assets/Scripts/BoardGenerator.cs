@@ -35,24 +35,26 @@ public class BoardGenerator : MonoBehaviour
         Debug.Log(word);
         int stringLength = word.Length;
         Debug.Log(stringLength);
+        //this sets a value for each board prefab
+        GameObject selectedBoard = null;
 
         if (stringLength == 5)
         {
             Debug.Log("Length is 5");
-            Instantiate(gameBoardFive, transform);
+            selectedBoard = Instantiate(gameBoardFive, transform);
             
         }
 
         else if (stringLength == 6)
         {
             Debug.Log("Length is 6");
-            Instantiate(gameBoardSix, transform);
+            selectedBoard = Instantiate(gameBoardSix, transform);
         }
 
         else if(stringLength == 4)
         {
             Debug.Log("Length is 4");
-            Instantiate(gameBoardFour, transform);
+            selectedBoard = Instantiate(gameBoardFour, transform);
         }
 
         /*else if (word[i] == 3)
@@ -63,6 +65,20 @@ public class BoardGenerator : MonoBehaviour
         else
         {
             Debug.Log("odd word length");
+        }
+
+        // Wire buttons to the correct DynamicBoard instance
+        if (selectedBoard != null)
+        {
+            DynamicBoard dynamicBoard = selectedBoard.GetComponent<DynamicBoard>();
+            if (dynamicBoard != null)
+            {
+                dynamicBoard.Initialize(tryAgainButton, exitButton);
+            }
+            else
+            {
+                Debug.LogError("DynamicBoard not found on selectedBoard.");
+            }
         }
     }
 

@@ -201,19 +201,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 283351112}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 499047409858514944}
-        m_TargetAssemblyTypeName: DynamicBoard, Assembly-CSharp
-        m_MethodName: TryAgain
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &283351112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,19 +322,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 377018838}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 499047409858514944}
-        m_TargetAssemblyTypeName: DynamicBoard, Assembly-CSharp
-        m_MethodName: returnToScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &377018838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2087,17 +2063,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11d617d0f206fba458b3fd9f4aeca4e5, type: 3}
---- !u!114 &499047409858514944 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5406763198559965568, guid: 11d617d0f206fba458b3fd9f4aeca4e5, type: 3}
-  m_PrefabInstance: {fileID: 499047409858514943}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c5976b47164a3c45a892e24a8cc1933, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2256358241950194531 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7529530363174282495, guid: 11d617d0f206fba458b3fd9f4aeca4e5, type: 3}

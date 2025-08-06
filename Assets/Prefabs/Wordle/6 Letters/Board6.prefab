@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1461907285649169860}
   - component: {fileID: 5865141840643517440}
   - component: {fileID: 4116591568708762213}
+  - component: {fileID: 3948120605663331000}
   m_Layer: 5
   m_Name: Board6
   m_TagString: Untagged
@@ -77,7 +78,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7152543829850006838}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b5012223cb46854383d8a5e14bfa914, type: 3}
   m_Name: 
@@ -198,6 +199,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3948120605663331000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7152543829850006838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5976b47164a3c45a892e24a8cc1933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioClip: {fileID: 0}
+  emptyState:
+    fillColor: {r: 0.08627451, g: 0.15294118, b: 0.09019608, a: 1}
+    outlineColor: {r: 0.2392157, g: 0.2392157, b: 0.2392157, a: 1}
+  occupiedState:
+    fillColor: {r: 0.08627451, g: 0.15294118, b: 0.09019608, a: 1}
+    outlineColor: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  correctState:
+    fillColor: {r: 0.3254902, g: 0.5529412, b: 0.30588236, a: 1}
+    outlineColor: {r: 0.3254902, g: 0.5529412, b: 0.30588236, a: 1}
+  wrongSpotState:
+    fillColor: {r: 0.70980394, g: 0.62352943, b: 0.23137257, a: 1}
+    outlineColor: {r: 0.70980394, g: 0.62352943, b: 0.23137257, a: 1}
+  incorrectState:
+    fillColor: {r: 0.73333335, g: 0.13333334, b: 0, a: 1}
+    outlineColor: {r: 0.73333335, g: 0.13333334, b: 0, a: 1}
+  tryAgainButton: {fileID: 0}
+  exitButton: {fileID: 0}
 --- !u!1001 &1595844491474823052
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -43755,6 +43755,107 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+--- !u!1001 &2127413551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 58176411641334141, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1777506843, guid: fb6c2d1a615205d428493094160a5f2f, type: 3}
+    - target: {fileID: 4188504761157574289, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_Name
+      value: Banana
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 50.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134688115024951682, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590291387574561997, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: Species
+      value: BANANA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590291387574561997, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: AudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bd0b1f73829fa1e48a4b9c88d97143aa, type: 3}
+    - target: {fileID: 9193208153560515381, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.971063
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193208153560515381, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.85894775
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193208153560515381, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.033937633
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193208153560515381, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.070819855
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193208153560515381, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193208153560515381, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 018cc5b87c724824aab890afe6e013f4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -43770,3 +43871,4 @@ SceneRoots:
   - {fileID: 1066853280}
   - {fileID: 1447390216}
   - {fileID: 968143518}
+  - {fileID: 2127413551}
