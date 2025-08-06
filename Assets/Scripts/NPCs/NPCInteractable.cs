@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class NPCInteractable : MonoBehaviour
 {
+    public GameObject NoInteractText;
     public void Interact()
     {
         Animal animal = GetComponent<Animal>();
@@ -13,6 +15,9 @@ public class NPCInteractable : MonoBehaviour
         if (DataContainer.interactedNPCs.Contains(animal.Species))
         {
             Debug.Log("Already interacted with this NPC.");
+            NoInteractText.GameObject.SetActive = true;
+
+            //NoInteractText.text = "";
             return;
         }
 

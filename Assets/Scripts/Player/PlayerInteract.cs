@@ -11,7 +11,7 @@ public class PlayerInteract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.F))
         {
         float interactRange = 1f;
             Collider2D[] colliderArray = Physics2D.OverlapCircleAll(transform.position, interactRange);
@@ -23,6 +23,11 @@ public class PlayerInteract : MonoBehaviour
                     npcInteractable.Interact();
                 }
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            Debug.Log("Use the 'F' key you Muppet");
         }
 
     }
