@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RPG-grassland.unity
     guid: 2c06889d48e5ccb4b8f8135137b3fc33
+  - enabled: 1
+    path: Assets/Scenes/Start Scene.unity
+    guid: b09652dc03d1a9d4f8ac513be878cba1
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 7898bfdb7c89e9a4fab5c9e5f7538e50
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

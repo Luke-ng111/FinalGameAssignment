@@ -22,7 +22,7 @@ public class DynamicBoard : MonoBehaviour
     //to keep track of which row we're on for the board
     private Row[] rows;
 
-    //defining an index for the tiles
+    //defining an index for the Tiles
     private int rowIndex;
     private int columnIndex;
     //first column first row is 0,0, think of it like a graph or Matrix\
@@ -99,16 +99,16 @@ public class DynamicBoard : MonoBehaviour
                 continue;
             }
 
-            for (int col = 0; col < rows[row].tiles.Length; col++)
+            for (int col = 0; col < rows[row].Tiles.Length; col++)
             {
-                if (rows[row].tiles[col] == null)
+                if (rows[row].Tiles[col] == null)
                 {
                     Debug.LogWarning($"ClearBoard: Tile at row {row}, col {col} is null");
                     continue;
                 }
 
-                rows[row].tiles[col].SetLetter('\0');
-                rows[row].tiles[col].SetState(emptyState);
+                rows[row].Tiles[col].SetLetter('\0');
+                rows[row].Tiles[col].SetState(emptyState);
             }
         }
 
@@ -159,11 +159,11 @@ public class DynamicBoard : MonoBehaviour
             //columnIndex--; doesnt work as it can go out of bounds, we need to 'clamp', and it must be done first to reset index back by one
             columnIndex = Mathf.Max(columnIndex - 1, 0); //this gets the greatest value (the maximum) between the index-1 and 0 to reset the value, thus clamping it by a lower bound only
             //'\0' is a null value and counts as a single character, apparently
-            currentRow.tiles[columnIndex].SetLetter('\0');
-            currentRow.tiles[columnIndex].SetState(emptyState);
+            currentRow.Tiles[columnIndex].SetLetter('\0');
+            currentRow.Tiles[columnIndex].SetState(emptyState);
         }
 
-        else if (columnIndex >= currentRow.tiles.Length)
+        else if (columnIndex >= currentRow.Tiles.Length)
         {
             //submits a row
             if (Input.GetKeyDown(KeyCode.Return))
@@ -180,10 +180,14 @@ public class DynamicBoard : MonoBehaviour
                 //set letter for the tile to keep track of which tile out of 5 we are on
                 if (Input.GetKeyDown(SUPPORTED_KEYS[i]))
                 {
-                    currentRow.tiles[columnIndex].SetLetter((char)SUPPORTED_KEYS[i]);
+
+                    currentRow.Tiles[columnIndex].SetLetter((char)SUPPORTED_KEYS[i]);
                     //advances to next tile
                     columnIndex++;
-                    currentRow.tiles[columnIndex].SetState(occupiedState);
+                    if (columnIndex < currentRow.Tiles.Length) //checks for tile index 
+                    {
+                        currentRow.Tiles[columnIndex].SetState(occupiedState);
+                    }
                     //breaks out of for loop; prevents spamming 
                     break;
                 }
@@ -197,9 +201,9 @@ public class DynamicBoard : MonoBehaviour
         Debug.Log("Row submitted!");
 
         //runs through entire row to check if letters are correct
-        for (int i = 0; i < row.tiles.Length; i++)
+        for (int i = 0; i < row.Tiles.Length; i++)
         {
-            Tile tile = row.tiles[i];
+            Tile tile = row.Tiles[i];
 
             //accessing the index of the tile in our word to compare characters
             if (tile.letter == word[i])
@@ -240,36 +244,15 @@ public class DynamicBoard : MonoBehaviour
 
     private bool HasWon(Row row)
     {
-        for (int i = 0; i < row.tiles.Length; i++)
+        for (int i = 0; i < row.Tiles.Length; i++)
         {
-            if (row.tiles[i].state != correctState)
+            if (row.Tiles[i].state != correctState)
             {
                 return false;
             }
         }
 
         return true;
-    }
-
-    private void OnEnable()
-    {
-        //tryAgainButton.gameObject.SetActive(false);
-        //exitButton.gameObject.SetActive(false);
-    }
-
-    /*private void winButton()
-    {
-        exitButton.gameObject.SetActive(true);
-    }
-
-    private void loseButton()
-    {
-        tryAgainButton.gameObject.SetActive(true);
-    } */
-
-    private void OnDisable()
-    {
-
     }
 
 }

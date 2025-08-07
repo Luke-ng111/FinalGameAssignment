@@ -28,7 +28,7 @@ public class GridBoard : MonoBehaviour
 
     private int cols; // determined by word length
 
-    //defining an index for the tiles
+    //defining an index for the Tiles
     private int rowIndex;
     private int columnIndex;
     //first column first row is 0,0, think of it like a graph or Matrix\
@@ -324,7 +324,7 @@ public class GridBoard : MonoBehaviour
             Row row = rowObj.GetComponent<Row>();
             rows.Add(row);
 
-            foreach (var tile in row.tiles)
+            foreach (var tile in row.Tiles)
                 tile.SetState(emptyState);
         }
     }
@@ -340,8 +340,8 @@ public class GridBoard : MonoBehaviour
             if (currentCol > 0)
             {
                 currentCol--;
-                activeRow.tiles[currentCol].SetLetter('\0');
-                activeRow.tiles[currentCol].SetState(emptyState);
+                activeRow.Tiles[currentCol].SetLetter('\0');
+                activeRow.Tiles[currentCol].SetState(emptyState);
             }
         }
         else if (Input.GetKeyDown(KeyCode.Return) && currentCol >= wordLength)
@@ -355,8 +355,8 @@ public class GridBoard : MonoBehaviour
                 if (Input.GetKeyDown(key))
                 {
                     char letter = (char)key;
-                    activeRow.tiles[currentCol].SetLetter(letter);
-                    activeRow.tiles[currentCol].SetState(occupiedState);
+                    activeRow.Tiles[currentCol].SetLetter(letter);
+                    activeRow.Tiles[currentCol].SetState(occupiedState);
                     currentCol++;
                     break;
                 }
@@ -368,19 +368,19 @@ public class GridBoard : MonoBehaviour
     {
         for (int i = 0; i < wordLength; i++)
         {
-            char guessedChar = row.tiles[i].letter;
+            char guessedChar = row.Tiles[i].letter;
 
             if (guessedChar == word[i])
             {
-                row.tiles[i].SetState(correctState);
+                row.Tiles[i].SetState(correctState);
             }
             else if (word.Contains(guessedChar.ToString()))
             {
-                row.tiles[i].SetState(wrongSpotState);
+                row.Tiles[i].SetState(wrongSpotState);
             }
             else
             {
-                row.tiles[i].SetState(incorrectState);
+                row.Tiles[i].SetState(incorrectState);
             }
         }
 
@@ -405,7 +405,7 @@ public class GridBoard : MonoBehaviour
     {
         for (int i = 0; i < wordLength; i++)
         {
-            if (row.tiles[i].state != correctState)
+            if (row.Tiles[i].state != correctState)
                 return false;
         }
         return true;

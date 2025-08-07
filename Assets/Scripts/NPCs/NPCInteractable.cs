@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class NPCInteractable : MonoBehaviour
 {
-    public GameObject NoInteractText;
     public void Interact()
     {
+
         Animal animal = GetComponent<Animal>();
         if (animal == null)
             return;
@@ -15,9 +15,8 @@ public class NPCInteractable : MonoBehaviour
         if (DataContainer.interactedNPCs.Contains(animal.Species))
         {
             Debug.Log("Already interacted with this NPC.");
-            NoInteractText.GameObject.SetActive = true;
+            InteractionManager.Instance.SetInteractionTextActive(false);
 
-            //NoInteractText.text = "";
             return;
         }
 
