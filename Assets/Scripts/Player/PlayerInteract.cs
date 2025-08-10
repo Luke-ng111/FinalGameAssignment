@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
+    private Vector2 Destination;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +23,13 @@ public class PlayerInteract : MonoBehaviour
                 if (collider.TryGetComponent(out NPCInteractable npcInteractable))
                 {
                     npcInteractable.Interact();
+                }
+
+                if (collider.TryGetComponent(out TeleportInteract teleportPlayer))
+                {
+                    Destination = teleportPlayer.PlayerTPCoords;
+                    teleportPlayer.teleport();
+                    transform.position = Destination;
                 }
             }
         }
