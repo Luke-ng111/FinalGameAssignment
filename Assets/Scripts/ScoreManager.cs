@@ -11,6 +11,12 @@ public static class ScoreManager
         UnityEngine.Debug.Log("Score: " + Score);
     }
 
+    public static void DebugScore()
+    {
+        Debug.Log("21000 score added");
+        Score += 21000;
+    }
+
     public static void ResetScore()
     {
         Score = 0;

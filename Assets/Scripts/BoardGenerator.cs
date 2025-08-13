@@ -57,11 +57,6 @@ public class BoardGenerator : MonoBehaviour
             selectedBoard = Instantiate(gameBoardFour, transform);
         }
 
-        /*else if (word[i] == 3)
-        {
-            Instantiate(gameBoardThree);
-        } */
-
         else
         {
             Debug.Log("odd word length");

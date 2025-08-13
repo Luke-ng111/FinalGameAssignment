@@ -67,7 +67,6 @@ public class DynamicBoard : MonoBehaviour
         boardGenerator = FindFirstObjectByType<BoardGenerator>();
         // assigns the in-game rows to the rows array
         rows = GetComponentsInChildren<Row>();
-        LoadData();
         SetData();
 
         //this wires the buttons
@@ -78,11 +77,15 @@ public class DynamicBoard : MonoBehaviour
             exitButton.onClick.AddListener(returnToScene);
 
         isInitialized = true;
+        exitButton.gameObject.SetActive(false);
+        tryAgainButton.gameObject.SetActive(false);
+
     }
 
     private void ClearBoard() // this resets the board
     {
 
+        Debug.Log("cleared board!");
         rows = GetComponentsInChildren<Row>();
 
         if (rows == null || rows.Length == 0)
@@ -124,7 +127,9 @@ public class DynamicBoard : MonoBehaviour
             return;
         }
 
+        Debug.Log("Tried again!");
         ClearBoard();
+        tryAgainButton.gameObject.SetActive(false);
         enabled = true;
 
     }
@@ -139,14 +144,7 @@ public class DynamicBoard : MonoBehaviour
     {
         word = DataContainer.Word;  // "horse";
         audioSource.clip = DataContainer.AudioClip;
-        Debug.Log(word);
         word = word.ToLower().Trim();
-    }
-
-    private void LoadData()
-    {
-        //to load in the final dictionary
-        Debug.Log("dictionary loaded!");
     }
 
     private void Update()

@@ -3,30 +3,51 @@ using UnityEngine;
 public class PlayerInteractUI : MonoBehaviour
 {
 
-    [SerializeField] private GameObject containerGameObject;
+    [SerializeField] private GameObject interactGameObject;
+    [SerializeField] private GameObject teleportGameObject;
     [SerializeField] private PlayerInteract playerInteract;
 
-    private void show()
+    private void showFKey()
     {
-        containerGameObject.SetActive(true);
+        interactGameObject.SetActive(true);
     }
 
-    private void hide()
+    private void hideFKey()
     {
-        containerGameObject.SetActive(false);
+        interactGameObject.SetActive(false);
+    }
+
+    private void showEKey()
+    {
+        teleportGameObject.SetActive(true);
+    }
+
+    private void hideEKey()
+    {
+        teleportGameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (playerInteract.GetInteractableObject() != null)
+        //shows and hides UI element in range of animal interaction
+        if (playerInteract.GetInteractableObject() != null) 
         {
-            show();
+            showFKey();
         }
         else
         {
-            hide();
+            hideFKey();
+        }
+
+        //shows and hides UI element in range of scene transition
+        if (playerInteract.GetTeleportObject() != null)
+        {
+            showEKey();
+        }
+        else
+        {
+            hideEKey();
         }
     }
 }
