@@ -6,10 +6,12 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+    public GameObject HowToPlayUI;
 
     private void Start()
     {
         PauseMenuUI.SetActive(false);
+        HowToPlayUI.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,9 +30,22 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    public void InstructionMenuLoad()
+    {
+        PauseMenuUI.SetActive(false);
+        HowToPlayUI.SetActive(true);
+    }
+
+    public void InstructionMenuLeave()
+    {
+        PauseMenuUI.SetActive(true);
+        HowToPlayUI.SetActive(false);
+    }
+
     public void Resume()
     {
         PauseMenuUI.SetActive(false);
+        HowToPlayUI.SetActive(false);
         Time.timeScale = 1.0f;
         GameIsPaused = false;
     }

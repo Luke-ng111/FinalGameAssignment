@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreDisplay : MonoBehaviour
@@ -8,7 +8,8 @@ public class ScoreDisplay : MonoBehaviour
     void Start()
     {
         //scoreText = scoreGO.GetComponent<TMPro.TextMeshProUGUI>();
-        scoreText.text = "Score: " + ScoreManager.Score.ToString();
+        //scoreText.text = "Score: " + ScoreManager.Score.ToString();
+        scoreText.text = "ពិន្ទុ: " + ScoreManager.Score.ToString();
     }
 
     // Update is called once per frame

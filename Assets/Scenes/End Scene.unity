@@ -442,10 +442,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: credits
+  m_text: "\u17A5\u178E\u1791\u17B6\u1793"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 34c311911a39ac848aebf2bab93078d1, type: 2}
+  m_sharedMaterial: {fileID: -1358116361378163024, guid: 34c311911a39ac848aebf2bab93078d1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -911,19 +911,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'score: 22000/22000
-
-    YOU WON!
-
-
-    you have achieved the maximum possible
-    score
-
-
-    thank you for playing'
+  m_text: "\u1796\u17B7\u1793\u17D2\u1791\u17BB\u17D6 \u17E2\u17E2\u17E0\u17E0\u17E0/\u17E2\u17E2\u17E0\u17E0\u17E0\n\u17A2\u17D2\u1793\u1780\u1788\u17D2\u1793\u17C7!\n\n\u17A2\u17D2\u1793\u1780\u1794\u17B6\u1793\u179F\u1798\u17D2\u179A\u17C1\u1785\u1796\u17B7\u1793\u17D2\u1791\u17BB\u17A2\u178F\u17B7\u1794\u179A\u1798\u17B6\n\n\u17A2\u179A\u1782\u17BB\u178E\u179F\u1798\u17D2\u179A\u17B6\u1794\u17CB\u1780\u17B6\u179A\u179B\u17C1\u1784"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 34c311911a39ac848aebf2bab93078d1, type: 2}
+  m_sharedMaterial: {fileID: -1358116361378163024, guid: 34c311911a39ac848aebf2bab93078d1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1056,10 +1047,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: exit game
+  m_text: "\u1785\u17B6\u1780\u1785\u17C1\u1789"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 34c311911a39ac848aebf2bab93078d1, type: 2}
+  m_sharedMaterial: {fileID: -1358116361378163024, guid: 34c311911a39ac848aebf2bab93078d1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

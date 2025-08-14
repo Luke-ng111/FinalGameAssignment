@@ -9,7 +9,7 @@ public class LoadWinScene : MonoBehaviour
     {
         Player.transform.position = Vector3.zero;
         Player.transform.rotation = Quaternion.identity;
-        ScoreManager.ResetScore();
+        //ScoreManager.ResetScore();
     }
 
     // Update is called once per frame
