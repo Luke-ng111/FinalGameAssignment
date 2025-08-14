@@ -3,9 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
-    public void MainMenu()
+    public void AltF4()
     {
-        SceneManager.LoadScene("Start Scene");
+        Debug.Log("Close the game");
+        Application.Quit();
     }
 
     public void LoadCredits()

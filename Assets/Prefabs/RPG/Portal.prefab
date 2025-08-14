@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9110054566484511849}
   - component: {fileID: 893982795368474488}
   - component: {fileID: 4365403701813549878}
+  - component: {fileID: 8061567884205641205}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Teleporter
@@ -176,3 +177,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerTPCoords: {x: 0, y: 0}
+--- !u!95 &8061567884205641205
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852526197623916175}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1bc8a49b0aec63e48aebf7a5d0afd889, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

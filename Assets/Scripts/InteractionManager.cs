@@ -31,7 +31,7 @@ public class InteractionManager : MonoBehaviour
         else
         {
             Instance = this;  // Set the instance to this object
-            DontDestroyOnLoad(gameObject);  // Optional: persist the singleton across scenes
+            //DontDestroyOnLoad(gameObject);  // Optional: persist the singleton across scenes
         }
     }
 
